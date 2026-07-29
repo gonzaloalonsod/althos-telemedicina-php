@@ -13,7 +13,7 @@ proyecto.
 composer require althosalud/telemedicina
 ```
 
-Requisitos: PHP 8.2+ y extensión `ext-curl`. Versión estable actual: **v0.1.1**.
+Requisitos: PHP 8.2+ y extensión `ext-curl`. Versión estable actual: **v0.1.2**.
 
 - Packagist: [althosalud/telemedicina](https://packagist.org/packages/althosalud/telemedicina)
 - Repositorio: [gonzaloalonsod/althos-telemedicina-php](https://github.com/gonzaloalonsod/althos-telemedicina-php)
