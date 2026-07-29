@@ -9,29 +9,15 @@ proyecto.
 
 ## Instalación
 
-Hasta que el paquete esté publicado en Packagist, agregá el repositorio VCS
-en el `composer.json` del proyecto cliente:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/gonzaloalonsod/althos-telemedicina-php"
-        }
-    ]
-}
-```
-
 ```bash
-composer require althosalud/telemedicina:dev-main
+composer require althosalud/telemedicina
 ```
 
 Requisitos: PHP 8.2+ y extensión `ext-curl`.
 
-Repositorio: [gonzaloalonsod/althos-telemedicina-php](https://github.com/gonzaloalonsod/althos-telemedicina-php).
-Cuando exista una versión etiquetada o esté publicado en Packagist, se podrá
-omitir `:dev-main`.
+- Packagist: [althosalud/telemedicina](https://packagist.org/packages/althosalud/telemedicina)
+- Repositorio: [gonzaloalonsod/althos-telemedicina-php](https://github.com/gonzaloalonsod/althos-telemedicina-php)
+- Changelog: [CHANGELOG.md](CHANGELOG.md)
 
 ## PHP
 
