@@ -1,7 +1,7 @@
 # AlthoTelemedicina PHP SDK
 
 Cliente PHP tipado para integrar sesiones de video de
-[AlthoTelemedicina](https://telemedicina.althosalud.com).
+[AlthoTelemedicina](https://telemedicina.althoapp.com).
 
 La librería no depende de Symfony, Laravel ni de clientes HTTP de terceros:
 usa **cURL** (extensión PHP) y la misma clase `TelemedicineClient` en cualquier
@@ -25,7 +25,7 @@ Requisitos: PHP 8.2+ y extensión `ext-curl`.
 use AlthoSalud\Telemedicina\TelemedicineClient;
 
 $client = new TelemedicineClient(
-    baseUrl: 'https://telemedicina.althosalud.com',
+    baseUrl: 'https://telemedicina.althoapp.com',
     apiKey: 'tm_...',
 );
 
@@ -45,7 +45,7 @@ configurás la misma clase que en PHP puro.
 
 ```dotenv
 # .env.local
-TELEMEDICINA_API_BASE_URL=https://telemedicina.althosalud.com
+TELEMEDICINA_API_BASE_URL=https://telemedicina.althoapp.com
 TELEMEDICINA_API_KEY=tm_...
 ```
 
@@ -94,7 +94,7 @@ Instalá el paquete y centralizá la instancia en un servicio de aplicación.
 
 ```dotenv
 # .env
-TELEMEDICINA_API_BASE_URL=https://telemedicina.althosalud.com
+TELEMEDICINA_API_BASE_URL=https://telemedicina.althoapp.com
 TELEMEDICINA_API_KEY=tm_...
 ```
 
@@ -182,7 +182,7 @@ avanzadas podés inyectar cualquier implementación de
 use AlthoSalud\Telemedicina\Contract\HttpTransportInterface;
 
 $client = new TelemedicineClient(
-    baseUrl: 'https://telemedicina.althosalud.com',
+    baseUrl: 'https://telemedicina.althoapp.com',
     apiKey: 'tm_...',
     transport: $customTransport,
 );
